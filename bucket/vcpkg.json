@@ -1,0 +1,28 @@
+{
+    "homepage": "https://github.com/microsoft/vcpkg",
+    "description": "Vcpkg helps you manage C and C++ libraries on Windows, Linux and MacOS.",
+    "version": "2019.11",
+    "license": "MIT",
+    "url": "https://github.com/microsoft/vcpkg/archive/2019.11.zip",
+    "hash": "94dde3bd529e79b693b13e64846712781c893fbb53ac4f8b00c11e8c2622fd6c",
+    "extract_dir": "vcpkg-2019.11",
+    "installer" : {
+        "file": "bootstrap-vcpkg.bat",
+        "args": "-disableMetrics",
+        "keep": true
+    },
+    "post_install": "vcpkg integrate install",
+    "uninstaller" : {
+        "script": "vcpkg integrate remove"
+    },
+    "persist": [
+        "downloads",
+        "installed"
+    ],
+    "bin": "vcpkg.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/microsoft/vcpkg/archive/$matchVersion.zip",
+        "extract_dir": "vcpkg-$matchVersion"
+    }
+}
