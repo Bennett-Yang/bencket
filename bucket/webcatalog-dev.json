@@ -37,7 +37,7 @@
         "re": "Version (?<version>[0-9]+.[0-9]+.[0-9])"
     },
     "autoupdate": {
-        "url": "https://github.com/quanglam2807/webcatalog/releases/download/v$matchVersion/webcatalog-setup-$matchVersion.exe#/dl.7z"
+        "url": "https://github.com/quanglam2807/webcatalog/releases/download/v$version/webcatalog-setup-$version.exe#/dl.7z"
     },
     "notes": "I don't persist your data, they are still in '%APPDATA%\\WebCatalog'. The extra files of apps you installed in WebCatalog are stored in '%APPDATA%\\yourAppName' which you should delete manually after uninstallation."
 }
