@@ -4,7 +4,7 @@
     "version": "2019.12",
     "license": "MIT",
     "url": "https://github.com/microsoft/vcpkg/archive/2019.12.zip",
-    "extract_dir": "vcpkg-$version",
+    "extract_dir": "vcpkg",
     "hash": "bc8d2d6fce95e8e1e35483c426a3f26171cbbd1209ce3198282cdd7c9cbf331b",
     "installer": {
         "file": "bootstrap-vcpkg.bat",
