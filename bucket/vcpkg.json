@@ -11,6 +11,7 @@
         "args": "-disableMetrics",
         "keep": true
     },
+    "bin": "vcpkg.exe",
     "post_install": "vcpkg integrate install",
     "uninstaller": {
         "script": "vcpkg integrate remove"
