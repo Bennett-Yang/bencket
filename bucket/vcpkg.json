@@ -5,7 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/microsoft/vcpkg/archive/2019.12.zip",
     "hash": "bc8d2d6fce95e8e1e35483c426a3f26171cbbd1209ce3198282cdd7c9cbf331b",
-    "extract_dir": "vcpkg-2019.11",
+    "extract_dir": "vcpkg-$version",
     "installer": {
         "file": "bootstrap-vcpkg.bat",
         "args": "-disableMetrics",
