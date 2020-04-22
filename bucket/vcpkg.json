@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/microsoft/vcpkg",
     "description": "Vcpkg helps you manage C and C++ libraries on Windows, Linux and MacOS.",
-    "version": "2020.01",
+    "version": "2020.04",
     "license": "MIT",
-    "url": "https://github.com/microsoft/vcpkg/archive/2020.01.zip",
+    "url": "https://github.com/microsoft/vcpkg/archive/2020.04.zip",
     "extract_dir": "vcpkg-2019.12",
-    "hash": "1bbe261f66aa84cc92e7640352bcc04ddfb88ae42b47fd348288172be588f4d9",
+    "hash": "b7e7c08b0c45b52aef061ed976b1337365b4ee603866dc59e9582b0d6a71395b",
     "installer": {
         "file": "bootstrap-vcpkg.bat",
         "args": "-disableMetrics",
