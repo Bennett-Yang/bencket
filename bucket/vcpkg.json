@@ -5,7 +5,19 @@
     "license": "MIT",
     "url": "https://github.com/microsoft/vcpkg/archive/2020.06.zip#/dl.7z",
     "hash": "7a3388937df40859a0b6575863f3f2d56b29d7d5ba14f420e6d735d89fd1791e",
-
+    "installer": {
+        "file": "vcpkg-$version/bootstrap-vcpkg.bat",
+        "args": "-disableMetrics",
+        "keep": true
+    },
+    "post_install": "vcpkg integrate install",
+    "uninstaller": {
+        "script": "vcpkg integrate remove"
+    },
+    "persist": [
+        "downloads",
+        "installed"
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/microsoft/vcpkg/archive/$version.zip#/dl.7z"
