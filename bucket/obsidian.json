@@ -1,12 +1,12 @@
 {
-    "version": "0.7.6",
+    "version": "0.8.0",
     "description": "Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files.",
     "homepage": "https://obsidian.md/",
     "license": "https://obsidian.md/eula",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v0.7.6/Obsidian.0.7.6.exe#/dl.7z",
-            "hash": "sha512:725e42d1d50da07fae75bc11d8d2b939684d72abd3183d4a483c370982f69513e08738fa47a9c5c99d712124ec233df86120cded273798ca08990fa5a8f8537d",
+            "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v0.8.0/Obsidian.0.8.0.exe#/dl.7z",
+            "hash": "c733241a0fe42808dad437b16816edf8bd2204a0d82b95d6e7c0187307a8eaa2",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse"
