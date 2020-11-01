@@ -1,10 +1,10 @@
 {
     "homepage": "https://getwebcatalog.com/",
     "description": "Run Web Apps like Real Apps",
-    "version": "25.13.0",
+    "version": "25.13.1",
     "license": "MPL-2.0",
-    "url": "https://github.com/quanglam2807/webcatalog/releases/download/v25.13.0/webcatalog-setup-25.13.0.exe#/dl.7z",
-    "hash": "c17758c28210a3553cc6284a5f5c4a7c9357379d1f2061a9a37a6373308da2df",
+    "url": "https://github.com/quanglam2807/webcatalog/releases/download/v25.13.1/webcatalog-setup-25.13.1.exe#/dl.7z",
+    "hash": "6fd7892e6656759c8255f5cb3476c4becbf93f09b2110997e7abb5562b8bfde9",
     "installer": {
         "script": [
             "Move-Item $dir\\`$PLUGINSDIR\\* $dir -Force",
