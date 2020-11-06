@@ -1,0 +1,14 @@
+{
+    "homepage": "https://antdownloadmanager.com",
+    "description": "Ant Download Manager is a fast download manager of Internet files with the advanced function of downloading audio and video content. Fully integrates with all popular browsers. Supports the most popular Generators Premium Links (Debrids).",
+    "version": "2.0.0",
+    "license": "Freeware",
+    "url": "https://antdownloadmanager.com/downloads/AntDM.2.0.0-portable.7z#/dl.7z",
+    "hash": "6a03f4ac3aa87ed2f5e09f0f65b60c4c500731caca37215ecb49548030233e4f",
+    "shortcuts": [
+        [
+            "AntDM/AntDM.exe",
+            "AntDM"
+        ]
+    ]
+}
