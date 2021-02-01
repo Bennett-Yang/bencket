@@ -31,4 +31,3 @@ scoop install bencket/<app_name>
 * Quicker
 * vcpkg
 * Webcatalog
-* Xmind 2020

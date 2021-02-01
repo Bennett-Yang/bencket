@@ -10,5 +10,17 @@
             "AntDM/AntDM.exe",
             "AntDM"
         ]
-    ]
+    ],
+    "bin": "AntDM/AntDM.exe",
+    "checkver": {
+        "url": "https://antdownloadmanager.com/download",
+        "regex": "AntDM.(?<version>\\d\\.\\d\\.\\d)-portable.7z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://antdownloadmanager.com/downloads/AntDM.$version-portable.7z#/dl.7z"
+            }
+        }
+    }
 }
