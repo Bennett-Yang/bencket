@@ -1,0 +1,30 @@
+{
+    "homepage": "https://www.airdroid.com/",
+    "description": "AirDroid makes your multi-screen life easier and more focused by helping you access and manage your phone from any computer, anywhere. You can send SMS, view app notifications, transfer files and fully control your phone on computer with AirDroid.",
+    "version": "3.6.9",
+    "license": "unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.airdroid.com/AirDroid_Desktop_Client_3.6.9.1.exe#/dl.7z",
+            "hash": "34be8191f69f92369d316ecdd5ed33406ede3964f58de1964cf4a0a8058c65d8"
+        }
+    },
+    "shortcuts": [
+        [
+            "AirDroid/AirDroid.exe",
+            "AirDroid"
+        ]
+    ],
+    "bin": "AirDroid/AirDroid.exe",
+    "checkver": {
+        "url": "",
+        "regex": ""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.airdroid.com/AirDroid_Desktop_Client_$version.$buildVersion.exe#/dl.7z"
+            }
+        }
+    }
+}
