@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "http://kmate.me/downloadcn/",
-        "re": "Kindle Mate (?<version>[0-9]+.[0-9]+)"
+        "regex": "Kindle Mate (?<version>[0-9]+.[0-9]+)"
     },
     "autoupdate": {
         "url": "http://kmate.me/data/uploads/download/KindleMate$cleanVersion_Portable.zip"
