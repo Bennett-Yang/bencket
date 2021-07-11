@@ -28,11 +28,11 @@
     "shortcuts": [
         [
             "XMind.exe",
-            "XMind 2020"
+            "XMind"
         ]
     ],
     "checkver": {
-        "url": "https://www.xmind.net/xmind2020/release-notes/",
+        "url": "https://www.xmind.net/desktop/release-notes/",
         "regex": "<h5 class=text-muted>([\\d.]+)"
     },
     "autoupdate": {
