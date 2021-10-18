@@ -1,12 +1,12 @@
 {
     "homepage": "https://getquicker.net/",
     "description": "Toolbox on your fingertips",
-    "version": "1.27.2",
+    "version": "1.27.4",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://files.getquicker.net/_productfiles/202110/Quicker.x64.1.27.2.0.msi",
-            "hash": "5a04f4c6faccbff56463b2aa9ab769c29f2282500804e4321b02af6bba3d82c9"
+            "url": "https://files.getquicker.net/_productfiles/202110/Quicker.x64.1.27.4.0.msi",
+            "hash": "701c4c6a01cc1236f87a83f807328384b7e272e0f4ae8540aba4e9baeb3432d2"
         }
     },
     "shortcuts": [
