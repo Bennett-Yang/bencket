@@ -3,7 +3,7 @@
     "description": "Run Web Apps like Real Apps",
     "version": "62.2.0",
     "license": "Unknown",
-    "url": "https://cdn-2.webcatalog.io/webcatalog/WebCatalog%20Setup%2062.2.0.exe",
+    "url": "https://cdn-2.webcatalog.io/webcatalog/WebCatalog%20Setup%2062.2.0.exe#/dl.7z",
     "hash": "48bc4c6f2de1f481e53186831e422912c6aa5f592f3e5f4811c04a321d5d4e76",
     "installer": {
         "script": [
