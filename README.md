@@ -23,11 +23,9 @@ scoop install bencket/<app_name>
 
 ### What apps does bencket have?
 * Ant Donwload Manager
-* Enguage Digitizer
 * Image2Latex
-* Kindle Mate
-* Obsidian
 * Office Tool Plus
 * Quicker
 * vcpkg
 * Webcatalog
+* Cherry Studio
