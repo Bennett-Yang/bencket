@@ -1,10 +1,10 @@
 {
-    "homepage": "https://getwebcatalog.com/",
+    "homepage": "https://desktop.webcatalog.io/",
     "description": "Run Web Apps like Real Apps",
-    "version": "41.4.0",
-    "license": "MPL-2.0",
-    "url": "https://github.com/quanglam2807/webcatalog/releases/download/v41.4.0/webcatalog-setup-41.4.0.exe#/dl.7z",
-    "hash": "44adc83c165e3818df4f169b1306287706e5d582e25a44411298cb84398aa222",
+    "version": "62.2.0",
+    "license": "Unknown",
+    "url": "https://cdn-2.webcatalog.io/webcatalog/WebCatalog%20Setup%2062.2.0.exe",
+    "hash": "48bc4c6f2de1f481e53186831e422912c6aa5f592f3e5f4811c04a321d5d4e76",
     "installer": {
         "script": [
             "Move-Item $dir\\`$PLUGINSDIR\\* $dir -Force",
@@ -31,12 +31,6 @@
             "    Remove-Item \"$webcatalogStartmenu\" -Recurse -Force",
             "}"
         ]
-    },
-    "checkver": {
-        "github": "https://github.com/quanglam2807/webcatalog"
-    },
-    "autoupdate": {
-        "url": "https://github.com/quanglam2807/webcatalog/releases/download/v$version/webcatalog-setup-$version.exe#/dl.7z"
     },
     "notes": "I don't persist your data, they are still in '%APPDATA%\\WebCatalog'. The extra files of apps you installed in WebCatalog are stored in '%APPDATA%\\yourAppName' which you should delete manually after uninstallation."
 }
