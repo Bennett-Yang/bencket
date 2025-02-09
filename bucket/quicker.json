@@ -1,12 +1,16 @@
 {
     "homepage": "https://getquicker.net/",
     "description": "Toolbox on your fingertips",
-    "version": "1.34.7",
+    "version": "1.43.59",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://files.getquicker.net/_productfiles/202207/Quicker.x64.1.34.7.0.msi",
-            "hash": "0c5bad7c5c3cd70b91287881015e64c80a1d0b19cb73478b714b4db35c41b69c"
+            "url": "https://download.getquicker.net/_productfiles/202502/Quicker.x64.1.43.59.0.msi",
+            "hash": "f385e1c30c3cb8a0cd4c9e460c935ad9f7a4fc8c2f29abbb3032a966ddbffc46"
+        },
+        "32bit": {
+            "url": "https://download.getquicker.net/_productfiles/202502/Quicker.x86.1.43.59.0.msi",
+            "hash": "dcdafca3d5e31793c480c49fcae586904ffcd80806dc9d831bc1727e58c57180"
         }
     },
     "shortcuts": [
@@ -23,7 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://files.getquicker.net/_productfiles/$matchYear$matchMonth/Quicker.x64.$version.0.msi"
+                "url": "https://download.getquicker.net/_productfiles/$matchYear$matchMonth/Quicker.x64.$version.0.msi"
+            },
+            "32bit": {
+                "url": "https://download.getquicker.net/_productfiles/$matchYear$matchMonth/Quicker.x86.$version.0.msi"
             }
         }
     }
