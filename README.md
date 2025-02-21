@@ -26,6 +26,4 @@ scoop install bencket/<app_name>
 * Image2Latex
 * Office Tool Plus
 * Quicker
-* vcpkg
-* Webcatalog
 * Cherry Studio
